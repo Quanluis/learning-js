@@ -22,3 +22,42 @@ console.log('aNumber: < anotherNumber', aNumber < anotherNumber);
 console.log('aNumber: > anotherNumber', aNumber > anotherNumber);
 console.log('aNumber: >== anotherNumber', aNumber >= anotherNumber);
 console.log('aNumber: <== anotherNumber', aNumber <= anotherNumber);
+
+//condidtional statements 
+// if -> using to run code based on the answer to a question
+// if-else -> use to run code based on the andwer to a question
+//but there is a fallback plan
+
+//if-elseif-else -> i have multiple questions that determine 
+//what code to run
+
+//note: there is another way called a 'switch'
+//but works dif
+
+//if 
+
+if (3 === 3){
+    console.log('Orange crush if delicious!');
+}
+
+if("a" === "b") {
+    console.log("this wiill never print");
+}
+// if-else 
+
+if('grape' === 'banana'){
+    console.log('this will never run');
+} else {
+    console.log('this is a backup plan'); 
+}
+// if-elseif-else 
+//const someNumber = 100; //A 
+//const someNumber = 42;  //B
+const someNumber = 30    //C
+if (someNumber === 100) { //A
+    console.log('it is 100');
+} else if(someNumber === 42) { //B
+    console.log('the meaning of life');
+}else { //C
+    console.log('none others work');
+}
