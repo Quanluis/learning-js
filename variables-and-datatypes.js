@@ -31,3 +31,14 @@ console.log("aNumber: ", aNumber);
 console.log("anotherNumber: ", anotherNumber); 
 console.log("Type of aNumber: ", typeof aNumber);
 console.log("Type of anotherNumber: ", typeof anotherNumber);
+//numbers will come back up, 
+//Arrays 
+const anArray = [1,2,3,4]; //array of numbers
+const aStringArray = ["cheese", "bacon", "eggs"]; // an array of strings 
+console.log("anArray: ", anArray);
+console.log("aStringArray: ",aStringArray);
+console.log("How many elements are in aArray? ", anArray.length);
+//the "." after the anArray(the VARIABLE) accesses the property "length"
+// of the Array
+console.log("what is the type of anArray?", typeof anArray);
+// we are def not finished with Arrays, these are everwhere. 
