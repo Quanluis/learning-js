@@ -57,3 +57,8 @@ console.log('what is the color of the object?: ', anObject.color);
 console.log('what is the size of the object?: ', anObject.size);
 console.log('what is the topping of the object?: ', anObject['toppings']);
 
+// objects are everywhere, we shall return!
+//Booleans 
+const yes = true ;
+const no = false; 
+// const true = 3; // bad! cannot use a reserverd word for a variable 
