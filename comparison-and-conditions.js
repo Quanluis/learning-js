@@ -61,3 +61,24 @@ if (someNumber === 100) { //A
 }else { //C
     console.log('none others work');
 }
+
+//more complex questions 
+// is that more than 3 and less than 10 
+// if that more than 10 or less than 100 
+// boolean operators: ! -> not 
+//                      && -> and 
+//                    || -> or 
+
+const name = "luis";
+if(name === 'luis'|| name === 'justin'){
+    console.log('the name is equal to justin or luis.');
+}
+
+if(name === "luis" && name === "justin"){
+    console.log('this will never run because the name will have to be luis and justin');
+
+}
+if (!(3 <= 3) ) {
+     console.log('this will never run because the ! flips the true statement to false. ');
+
+}
