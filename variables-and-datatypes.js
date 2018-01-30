@@ -41,4 +41,19 @@ console.log("How many elements are in aArray? ", anArray.length);
 //the "." after the anArray(the VARIABLE) accesses the property "length"
 // of the Array
 console.log("what is the type of anArray?", typeof anArray);
+console.log('what is the index 1 element of anArray?: ',anArray[1]);
 // we are def not finished with Arrays, these are everwhere. 
+//objects 
+const anObject = {
+    'color': 'red', //key: value => key is 'color' the value is 'red'
+    size: 500, //keys are strings but the quotes are implied
+    'toppings': ['perpperoni', 'cheese', 'jalapenos'],
+    radius: 500,
+    
+};
+console.log('anObject: ', anObject);
+console.log('Type of anObject? ', typeof anObject);
+console.log('what is the color of the object?: ', anObject.color);
+console.log('what is the size of the object?: ', anObject.size);
+console.log('what is the topping of the object?: ', anObject['toppings']);
+
