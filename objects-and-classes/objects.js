@@ -19,8 +19,14 @@ const circle = {
      this.y += dy;
  }
 
+ // the following function is to test the this.keyword 
 };
-console.log(circle);
+function printThis(){
+    console.log(this);
+}
+printThis = printThis.bind(circle);
+printThis();
+/* console.log(circle);
 circle.changeColor("green");
 console.log(circle);
 circle.shrink();
@@ -29,7 +35,7 @@ circle.grow();
 console.log(circle);
 circle.move(10, 12);
 console.log(circle);
-console.log(this);
+console.log(this); */
 
 
 // create a move method that takes a dx and dy and updates the x, y 
