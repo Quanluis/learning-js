@@ -39,3 +39,23 @@ class Truck extends vehicle {
   t.drive();
   t.goMudding();
   console.log(t);
+
+//create a car class that is-a vehicle
+//car should drive fast 
+//car should have a miliage property 
+//these are in addition to the vehicle and methods
+//that the car will have
+
+class Mustang extends vehicle {
+    constructor(color = 'black', stank = 'new car', mileage = 0){
+        super()
+    }
+    driveFast(){
+        console.log('FASSSST!')
+    }
+  }  
+
+const m = new Mustang ();
+  m.drive();
+  m.driveFast();
+  console.log(m);
